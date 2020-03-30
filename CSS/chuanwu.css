@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+	.top{
+		width: 100%;
+		height: 80px;
+		background-color:#FFFFFF;
+		border-top:4px solid #3148A5;
+		border-bottom:1px solid #CCCCCC;
+	}
+	.top1{
+		position: relative;
+	}
+	.top .p1{
+		width: 117px;
+		height: 26px;
+		background-color:#09238B;
+		font-size:12px;
+		font-family:'微软雅黑';
+		line-height: 26px;
+		position: absolute;
+		right: 0px;top:-4px;
+		border-radius:4px;
+		padding-left: 22px;
+	}
+	.top .p1 a{
+		color:#FFFFFF;
+	}
+	.top .p1 span{
+		margin-left: 17px;
+		margin-right: 17px;
+	}
+	.top .bt{
+		font-weight:normal;
+		background:url(../img/logo.png) no-repeat left center;
+		width: 258px;
+		height: 80px;
+		font-family:'微软雅黑';
+		color:#112161;
+		padding-left: 96px;	
+		float: left;
+		
+	}
+	.top .bt .p2{
+		font-size:21px;
+		margin-top: 28px;
+	}
+	.top .bt .p3{
+		font-size:14px;
+	}
+	.top .daohang{
+		font-size:0;
+		width: 544px;
+		float: right;
+		margin-top: 55px;
+	}
+	.top .daohang ul li{
+		display:inline-block;
+		font-size:14px;
+		font-family:'微软雅黑';
+		margin-right: 25px;
+	}
+	.top .daohang ul li a{
+		color:#333333;
+	}
+	.top .daohang ul li:nth-child(7){
+		margin-right: 0;
+	}
+	.top .daohang ul .active a{
+		color:#0F298D;
+	}
+	.top .daohang ul li:hover a{
+		color:#0F298D;
+	}
+	/*导航*/
+	.top2{
+		height: 39px;
+		background-color:#FFFFFF;
+		line-height: 39px;
+	}
+
+	.top2 p a{
+		font-size:12px;
+		color:#272727;
+	}
+.cender{
+	height: 742px;
+	background:url(../img/bj.png) repeat-x left top;
+}
+.cender1{
+	width: 1000px;
+	height: 742px;
+}
+.cender1 .left{
+	width: 601px;
+	height: 742px;
+	float: left;
+}
+.cender1 .left img{
+	margin-top: 36px;
+}
+.cender1 .biaoge{
+	width: 601px;
+	height: 158px;
+	margin-top:37px;
+}
+.cender1 .biaoge table{
+	border-collapse: collapse;
+}
+.cender1 .biaoge tr td{
+	border:1px solid #CCCCCC;
+	text-align: center;
+	color: #272727;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	}
+.cender1 .biaoge tr .yi{
+	width: 139px;
+	height: 54px;
+}
+.cender1 .biaoge tr .er{
+	width: 146px;
+	height: 54px;
+}
+.cender1 .biaoge tr .san{
+	width: 316px;
+	height: 54px;
+}
+.cender1 .biaoge tr .yi1{
+	width: 139px;
+	height: 54px;
+	color: #0F298D;
+	font-weight: bold;
+}
+.cender1 .biaoge tr .er1{
+	width: 146px;
+	height: 54px;
+	color: #0F298D;
+	font-weight: bold;
+}
+.cender1 .biaoge tr .san1{
+	width: 316px;
+	height: 54px;
+	color: #0F298D;
+	font-weight: bold;
+}
+.cender1 .right{
+	width: 362px;
+	height: 284px;
+	margin-top: 36px; 
+	float: right;
+}
+.cender1 .right p{
+	display: inline-block;
+	height: 33px;
+	color:#0F298D;
+	font-family: '微软雅黑';
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 33px; 
+}
+.cender1 .right>ul{
+	margin-top: 3px;
+}
+.cender1 .right>ul li{
+	width: 349px;
+	height: 34px;
+	background:url(../img/img14.gif) no-repeat left center; 
+	border-bottom: 1px solid #DDDDDD;
+	line-height: 34px;
+	padding-left: 14px;
+	color: #272727;
+	font-family: '微软雅黑';
+	font-size: 12px;
+}
+.bottom{
+		margin-top: 42px;
+		width: 100%;
+		height: 292px;
+		border-top:4px solid #3148A5;
+		background-color:#5F5F5F;
+	}
+	.b_top{
+		width: 1002px;
+		border-bottom:1px solid #888888;
+		font-size:0;
+		margin-top: 32px;
+	}
+	.b_top ul li{
+		display:inline-block;
+		font-size:12px;
+		color:#FFFFFF;
+		margin-right: 94px;
+		margin-bottom: 15px;
+	}
+	.b_top ul li:nth-child(5){
+		margin-right: 189px;
+	}
+	.b_left{
+		
+		float: left;
+	}
+	.b_left ul{
+		float: left;
+		margin-right: 94px;
+		margin-top: 11px;
+	}
+	.b_left .k2{
+		margin-right: 44px;
+	}
+	.b_left ul li{
+		font-size:12px;
+		color:#CBCBCB;
+		line-height: 30px;
+	}
+	.b_right{
+		font-size:0;
+		float: right;
+		
+		margin-top: 20px;
+	}
+	.b_right p{
+		width: 84px;
+		height: 84px;
+		display:inline-block;
+		position: relative;
+	}
+	.b_right .p1{
+		background:url(../img/erweima1.png) no-repeat;
+		margin-right: 25px;
+	}
+	.b_right .p2{
+		background:url(../img/erweima2.png) no-repeat;
+	}
+	.b_right a{
+		font-size:12px;
+		color:#CBCBCB;
+		position: absolute;
+		left:17px; bottom:-20px;
+	}
+	.b_btm{
+		height: 69px;
+		border-top:1px solid black;
+		margin-top: 30px;
+	}
+	.b_btm p{
+		font-size:12px;
+		color:#CBCBCB;
+		display:inline-block;
+		margin-top: 29px;
+	}
+	.b_btm .p2{
+		float: right;
+	}
+	.b_btm .p2 span{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
